@@ -71,7 +71,7 @@
     text-decoration: none;
     font-size: 15px;
     color: white;
-    padding: 12px 23px;
+    padding: 7px 22px;
     border: 1px solid #ffc451;
     border-radius: 4px;
     transition: all 0.3s ease;
@@ -81,7 +81,6 @@
 	color:black;
 	
 }
-
 .dash{
 	 width: 88px;
     text-align: center;
@@ -845,13 +844,12 @@
 	padding:10px;
 	border-radius:5px;
 }
-.messagebox input{
-	width:100%;
-	border:1px solid #212529;
+.messagebox textarea{
+	width:100%; 
+	font-size:20px;
 	color:#cccccc;
 	margin-bottom:20px;
-	padding:41px;
-	border-radius:5px;
+	border-radius:6px;
 }
 /* .submit{ */
 	/* padding: 9px 22px; */
@@ -872,9 +870,13 @@
 .submit .button:hover{
 	filter:grayscale(10%);
 }
+.footer_company{
+	/* line-height:40px; */
+}
 .footer_company h2{
 	font-size:25px;
 	color:white;
+	/* padding-bottom:20px; */
 	font-weight:600;
 	margin-bottom:30px;
 }
@@ -885,9 +887,10 @@
 .footer_company p{
 	font-size:14px;
 	color:#fff;
+	padding-bottom:15px;
 	line-height:20px;
 	font-weight:300;
-	margin-bottom:30px;
+	/* margin-bottom:30px; */
 	
 }
 .footer_company h2 span{
@@ -895,17 +898,22 @@
 }
 .footer_company h3{
 	font-size:15px;
+	padding-bottom:10px;
 	font-weight: 300;
 	color:#fff;
-	margin-bottom:40px;
+	/* margin-bottom:22px; */
 }
+.footer_company_icons {
+	margin-left: 0px;
+    padding-top: 16px;
+}
+
 .footer_company i{
 	color:white;
-	margin-left:9px;
 	margin-bottom:10px;
 	background-color:#444444;
 	padding:5px;
-	margin-right:2px;
+	margin-right: 7px;
 	border-radius:5px;
 }
 .footer_company i:hover{
