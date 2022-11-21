@@ -622,71 +622,88 @@
 				
 				
 				<div class="row align_items_center">
-					<div class="col-lg-3 team_images">
-						
-							<div class="first">
+			
+					<div class="col-lg-3">
+						<div class="team_images">
+							<div class="team_first">
 								<img src="./images/team/manfirst.png" class="pic">
-								<h3>Walter White</h3>
-								<p>Chief Executive Officer</p>
 								<div class="first_hover_links">
-									<i class="fa fa-twitter" aria-hidden="true"></i>
-									<i class="fa fa-facebook" aria-hidden="true"></i>
-									<i class="fa fa-instagram" aria-hidden="true"></i>
-									<i class="fa fa-linkedin" aria-hidden="true"></i>
+									<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+									<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+									<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 								</div>
-							</div>
-						
-					</div>
-					<div class="col-lg-3 team_images">
-						
-							<div class="first">
-								<img src="./images/team/mantwo.png" class="pic">
 								
+							</div>
+							<div class="team_text">
 								<h3>Walter White</h3>
 								<p>Chief Executive Officer</p>
+							</div>
+							
+							
+					</div>	
+					</div>
+					<div class="col-lg-3">
+						<div class="team_images">
+							<div class="team_first">
+								<img src="./images/team/mantwo.png" class="pic">
 								<div class="first_hover_links">
 									<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
 									<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
 									<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
 									<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 								</div>
+								
+							</div>
+							<div class="team_text">
+								<h3>Sarah Jhonson</h3>
+								<p>Product Manager</p>
 							</div>
 							
 							
-						
+					</div>	
 					</div>
-					<div class="col-lg-3 team_images">
-						
-							<div class="first">
+					<div class="col-lg-3">
+						<div class="team_images">
+							<div class="team_first">
 								<img src="./images/team/manthree.png" class="pic">
-								<h3>Walter White</h3>
-								<p>Chief Executive Officer</p>
 								<div class="first_hover_links">
 									<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
 									<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
 									<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
 									<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 								</div>
+								
 							</div>
-						
+							<div class="team_text">
+								<h3>William Anderson</h3>
+								<p>CTO</p>
+							</div>
+							
+							
+					</div>	
 					</div>
-					<div class="col-lg-3 team_images">
-						
-							<div class="first">
+					<div class="col-lg-3">
+						<div class="team_images">
+							<div class="team_first">
 								<img src="./images/team/manfour.png" class="pic">
-								<h3>Walter White</h3>
-								<p>Chief Executive Officer</p>
 								<div class="first_hover_links">
 									<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
 									<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
 									<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
 									<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 								</div>
-							</div> 
-						
+								
+							</div>
+							<div class="team_text">
+								<h3>Amanda Jepson</h3>
+								<p>Accountant</p>
+							</div>
+							
+							
+					</div>	
 					</div>
-						
-				</div>
+							</div>
 			</div>
 			
 		
@@ -702,6 +719,7 @@
 						<h1>CONTACT US</h1>
 						</div>
 					<div class="contact_map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.420800929737!2d80.23234254998319!3d12.944903490828638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525bab5496867b%3A0xf0df2561d0c41ec8!2sFabevy%20Technologies!5e0!3m2!1sen!2sin!4v1668769131910!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 					<div class="contact_form">
 						<div class="row">
@@ -727,35 +745,31 @@
 							</div>
 							<div class="col-lg-8">
 								<div class="contact_address">
-									<form>
+									<form action="">
 										<div class="row">
-											<div class="col-lg-6 name">
-												<input type="text" value="Name" id="name"></input>
+											<div class="col-lg-6">
+												<input type="text" placeholder="Name" id="name" class="form_control"></input>
 											</div>
-											<div class="col-lg-6 name">
-												<input type="text" value="Your Email" id="name"></input>
+											<div class="col-lg-6">
+												<input type="text" placeholder="Email" id="email" class="form_control"></input>
 											</div>
-										</div>
-										<div class="row">
-											<div class="col-lg-12 subject">
-												<input type="text" value="Subject" id="name"></input>
+											<div class="col-lg-12">
+												<input type="text" placeholder="Subject" id="subject" class="form_control"></input>
+												<textarea name="message" placeholder="message" class="form_control"></textarea>
+												<div class="submit">
+													<button class="button">Get Message</button>
+												</div>	
+													
 											</div>
+											<!-- <div class="col-lg-12"> -->
+												
+											<!-- </div> -->
 											
 										</div>
-										<div class="row">
-											<div class="col-lg-12 messagebox">
-												<textarea rows="5" name="message">
-													Message</textarea>
-											</div>
-											
-										</div>
+																										
 										
-																
-										<div class="row">
-											<div class="col-lg-12 submit">
-												<button class="button">Get Message</button>
-											</div>
-										</div>
+											
+										
 									</form>
 								
 								</div>
@@ -772,7 +786,7 @@
 			<div class="footer_section">
 				<div class="container">
 					<div class="row">
-					<div class="col-lg-4 footer_company" >
+					<div class="col-lg-3 footer_company" >
 						<h2>GP<span>.</span></h2>
 						<p>A108 Adam Street<br>
 							NY 535022, USA</p>
@@ -813,32 +827,25 @@
 							
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-5">
 						<div class="useful_links">
 							<h3>Our Newsletter</h3>
 							<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
 							
-							<div class="subscribe">
-								<form>
-									<div class="subscribe_button">
-										<input type="email" id="email"><span class="subs_button_link"><a href="#">Subscribe</a></span></input>
-										<!-- <input type="submit">Subscribe</input>			 -->
-									</div>
-								
-								</form>	
-							</div>
 							
-						
+								<form class="subscribe_form">
+										<input type="email" id="email" placeholder="subscribe"> </input>
+										<button class="subs_btns">Subscribe</button>
+								</form>	
 						</div>
-				</div>
-				</div>
+					</div>
 			</div>
 		</section>
 		<section class="footer">
 			<div class="container">
 				<div class="col-lg-12 copyright">
 					<h5><i class="fa fa-copyright" aria-hidden="true"></i> Copyright <b>Gp</b>. All Rights Reserved</h5>
-					<p>Designed by <em>BootstrapMade</em></p>
+					<p>Designed by <em>Aswin@frontend_developer</em></p>
 					<div class="go_link">
 						<a href="index.html"><span class="goto_link"><i class="fa fa-arrow-up" aria-hidden="true"></i></span></a>					
 					</div>
