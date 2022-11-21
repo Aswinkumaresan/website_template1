@@ -316,7 +316,7 @@
 
 
 .about_content{
-	line-height: 28px;
+	line-height: 19px;
 
 	
 	}
@@ -341,7 +341,7 @@
     padding-left: 20px;
     position: relative;
     font-size: 15px;
-    line-height: 15px;
+    line-height: 19px;
     display: inline-block;
    
 }
@@ -440,6 +440,9 @@
 	margin:10px;
 	height:49px;
 }
+/* about section ends */
+
+/* service section starts */
 .services{
 	    padding: 12px 0 80px 0;
 }
@@ -489,17 +492,27 @@
     border-radius: 5px;
 	
 }
-.options_list > h3{
-	
+.options_list  h3 a{
+	text-decoration:none;
+	display:inline-block;
 	font-size:19px;
+	color:black;
 	margin:20px 0;
-	
+}
+
+.options_list h3 a:hover{
+	color:#ffc451;
 }	
 .options_list > p{
 	font-size:14px;
 	color:#444444;
 	line-height: 21px;
 }	
+
+/* service section ends */
+
+/* call action section starts */
+
 .callaction{
 	
 	background-image:url('../images/cta-bg.jpg');
@@ -534,6 +547,11 @@
 .callaction_content .button:hover {
 	border:2px solid #ffc451;
 }
+
+/* call action section ends */
+
+/*portfolio section starts */
+
 .portfolio{
 	    padding: 80px 0 33px;
 }
@@ -608,7 +626,7 @@
 }
 
 .port_txt_sub h5{
-	color:#ccc;
+	color:white;
 	font-size:18px;
 	padding-bottom:10px;
 	font-weight:600;
@@ -621,7 +639,7 @@
 }
 .port_txt_sub .port_sub_link i{
 	display:inline-block;
-	color:#ccc;
+	color:white;
 	padding-right:10px;
 	font-size:18px;
 	font-weight:600;
@@ -630,6 +648,10 @@
 	color:#ffc451;
 	
 }
+/* portfolio section ends */
+
+/* operations section starts */
+
 .operations{
 	padding:80px 0;
 }
@@ -678,6 +700,11 @@
 	font-size:40px;
 	/* opacity: 0.9; */
 }
+
+/* operations section ends */
+
+/* namepost section starts */
+
 .namepost{
 	background-image: linear-gradient(#000000c2, #0000005c),url(../images/namepost/testimonials-bg.jpg);
 	background-position: center;
@@ -720,9 +747,14 @@
 	margin:15px 0;
 }
 
+/* namepost section ends */
+
+/* team section starts */
+
+
 
 .team{
-	   padding: 67px 0 55px;
+	   padding: 67px 0 25px;
 }
 .team_heading{
 	
@@ -768,13 +800,17 @@
 	bottom:0;
 	width:100%;
 	padding:30px 10px;
+	opacity:0;
+	visibility:hidden;
+	transform:translateY(-30px);
+	transition:all 0.5s ease-out;
+	
 	/* text-align:center; */
 }
 
 .first_hover_links a{
 	display: inline-block;
     background-color: #ffffffcc;
-    
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -782,21 +818,16 @@
     border-radius: 5px;
     color: #444444;
 }
-.first_hover_links {
-	opacity:0;
-	visibility:hidden;
-
-}
 .first_hover_links a:hover{
+	
 	background-color:#ffc451;
 	color:#444;
 }
 .team_images:hover .first_hover_links{
 	opacity:1;
+	transform:translateY(0px);
 	visibility:visible;
-	
 }
-
 .contact{
 	padding:80px 0;
 }
@@ -887,6 +918,9 @@ textarea.form_control{
 	font-weight:600;
 	margin-bottom:30px;
 }
+
+
+/* company contact section starts */
 .company_contact{
 	background-color:#151515;
 	padding:50px 0;
@@ -982,6 +1016,8 @@ textarea.form_control{
     border: 0;
     border-radius: 0;
 }
+/* company contact section ends */
+ /* footer section starts */
 
 .footer{
 	background-color:black;
@@ -1005,18 +1041,26 @@ textarea.form_control{
 .copyright em{
 	color:#ffc451;
 }
-.go_link i{
-	position:absolute;
-	top:30%;
-	left:95%;
-	padding:10px;
-	display:inline-block;
-	background-color:#ffc451;
-	font-size:18px;
-	border-radius:5px;
-	transition:all 0.3s ease;
-}
-.go_link i:hover{
-	background-color:#444444;
-	color:#ffc451
-}
+
+/* .go_link .goto_link i{ */
+	/* display:inline-block; */
+	/* background-color:#ffc451; */
+
+/* } */
+/* .goto_link i{ */
+	/* position:absolute; */
+	/* top:30%; */
+	/* left:95%; */
+	/* padding:10px; */
+	/* background-color:red; */
+	/* display:inline-block; */
+	/* background-color:#ffc451; */
+	/* font-size:18px; */
+	/* border-radius:5px; */
+	/* transition:all 0.3s ease; */
+/* } */
+/* .go_link i:hover{ */
+	/* background-color:#444444; */
+	/* color:#ffc451 */
+/* } */
+/* footer section ends */
