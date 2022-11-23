@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="./css/reset.css">
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="./css/responsive.css">
 		
 		<title>Bootstrap_template</title>
 	</head>
@@ -18,12 +19,12 @@
 			<div class="container">
 				<div class="row align_items_center">
 					<!-- logo starts -->
-					<div class="col-lg-2 header_name">
+					<div class="col-4 col-lg-2 col-md-8 header_name">
 						<h1><a href="index.html" class="logo_header">GP<span>.</span></a></h1>
 					</div>
 					<!-- logo ends -->
 					<!-- logo navigation starts -->
-					<div class="col-lg-8">
+					<div class="col-lg-8 d-none d_lg_show ">
 						<div class="logo_nav">
 							<ul class="nav_list">
 								<li class="logo_navlink"><a href="#" >Home</a></li>
@@ -58,9 +59,10 @@
 					</div>
 					<!-- logo navigation ends -->
 					<!-- logo getstarted starts -->
-					<div class="col-lg-2 logo_btn">
+					<div class="col-8 col-lg-2 col-md-4 logo_btn">
 						
-							<a class="logo_get button align_items_end" href="">Get Started</a>
+							<a class="logo_get button" href="">Get Started</a>
+							<i class="fa fa-bars  d_lg_show" aria-hidden="true"></i>
 						
 					</div>
 					<!-- logo getstarted ends -->
@@ -125,7 +127,7 @@
 		 <!-- About starts -->
 		 <section class="about">
 			<div class="container">
-				<div class="row">
+				<div class="row row_direction">
 					<div class="col-lg-6">
 						<!-- about_content starts -->
 						<div class="about_content">
@@ -165,32 +167,32 @@
 		<section class="clients">
 			<div class="container">
 				<div class="row align_items_center">
-					<div class="col-lg-2">
+					<div class="col-6 col-md-3 col-lg-2">
 						<div class="clients_images">
 							<img src="./images/client/client-1.png" alt="client1">
 						</div>
 					</div>
-					<div class="col-lg-2">
+					<div class="col-6 col-md-3 col-lg-2">
 						<div class="clients_images">
 							<img src="./images/client/client-2.png" alt="client2">							
 						</div>
 					</div>
-					<div class="col-lg-2">
+					<div class="col-6 col-md-3 col-lg-2">
 						<div class="clients_images">
 							<img src="./images/client/client-5.png" alt="client3">
 						</div>
 					</div>
-					<div class="col-lg-2">
+					<div class="col-6 col-md-3 col-lg-2">
 						<div class="clients_images">
 							<img src="./images/client/client-6.png" alt="client4">
 						</div>
 					</div>
-					<div class="col-lg-2">
+					<div class="col-6 col-md-3 d-none d_lg_show col-lg-2">
 						<div class="clients_images">
 							<img src="./images/client/client-7.png" alt="client5">
 						</div>
 					</div>
-					<div class="col-lg-2">
+					<div class="col-6 col-md-3 d-none d_lg_show col-lg-2">
 						<div class="clients_images">
 							<img src="./images/client/client-8.png" alt="client6">
 						</div>
@@ -231,30 +233,30 @@
 					<div class="col-lg-6">
 						<div class="aboutinfo_image ">
 							<div class="row">
-								<div class="col-lg-1"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></div>
-								<div class="col-lg-10">
+								<div class="col-2 col-md-1 col-lg-2"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></div>
+								<div class="col-10 col-md-11 col-lg-10">
 									<h4>Est labore ad</h4>
 									<p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-lg-1"><i class="fa fa-cube fa-2x" aria-hidden="true"></i></div>
-								<div class="col-lg-10">
+								<div class="col-2 col-md-1 col-lg-2"><i class="fa fa-cube fa-2x" aria-hidden="true"></i></div>
+								<div class="col-10 col-md-11 col-lg-10">
 									<h4>Harum esse qui</h4>
 									<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-lg-1"><i class="fa fa-file-image-o fa-2x" aria-hidden="true"></i></div>
-								<div class="col-lg-10">
+								<div class="col-2 col-md-1 col-lg-2 "><i class="fa fa-file-image-o fa-2x" aria-hidden="true"></i></div>
+								<div class="col-10 col-md-11 col-lg-10">
 									<h4>Aut occaecati</h4>
 									<p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-lg-1">
+								<div class="col-2 col-md-1 col-lg-2">
 									<i class="fa fa-shield fa-2x" aria-hidden="true"></i></div>
-								<div class="col-lg-10">
+								<div class="col-10 col-md-11 col-lg-10">
 									<h4>Beatae veritatis</h4>
 									<p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
 								</div>
@@ -787,7 +789,7 @@
 								NY 535022, USA</p>
 							<h3><b>Phone</b>: +1 5589 55488 55</h3>
 							<h3><b>Email</b>: info@example.com</h3>
-							<div class="row footer_company_icons">
+							<div class="footer_company_icons">
 								<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
 								<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
 								<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
