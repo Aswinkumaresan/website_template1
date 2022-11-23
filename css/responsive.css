@@ -21,7 +21,7 @@
 	height:auto;
 }
 .banner_items > i{
-	font-size:26px;
+	font-size:30px;
 }
 .about_content {
 	padding-top: 33px;
@@ -100,6 +100,9 @@
 .col-sm-12{
 	width:100%;
 	padding:0 15px;
+}
+.team_images {
+	margin-bottom:20px;
 }
 /* } */
 /* .logo_get{ */
@@ -210,6 +213,12 @@
 	height:auto;
 	padding: 33px 17px 48px;
  } 
+ .banner_items > i{
+	font-size:32px;
+}
+.team_images {
+	margin-bottom:20px;
+}
 }
 
 @media(min-width: 992px){
