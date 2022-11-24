@@ -11,7 +11,12 @@
 	}
 }
 
-
+@media(min-width:375px)and (orientation: landscape) {
+	.logo_get {
+    margin-right: 40px;
+	margin-left:0;
+	}
+}
 @media(max-width: 576px){
 	
 .logo_get{
