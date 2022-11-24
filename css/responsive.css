@@ -1,8 +1,24 @@
+@media(max-width: 290px){
+	.button{
+		font-size:9px;
+	}
+	.logo_get {
+    margin-right: 39px;
+	margin-left:0;
+	}
+	.header_name > h1 >a {
+    font-size: 27px;
+	}
+}
+
+
 @media(max-width: 576px){
 	
 .logo_get{
-	margin-right:60px;
-	padding: 12px 20px;
+
+	margin-right:67px;
+	margin-left:0;
+	padding: 9px 20px;
 }
 .button{
 	 border: 2px solid #ffc451;
@@ -104,33 +120,6 @@
 .team_images {
 	margin-bottom:20px;
 }
-/* } */
-/* .logo_get{ */
-	/* margin-right: 63px; */
-	/* padding: 12px 20px; */
-/* } */
-/* .button { */
-    /* border: 2px solid #ffc451; */
-/* } */
-/* .banner_items{ */
-	/* height:100%; */
-	/* padding: 33px 17px 48px; */
-/* } */
-/* .banner_items > i{ */
-	/* font-size:26px; */
-/* } */
-/* .row_direction{ */
-	/* flex-direction:column-reverse; */
-/* } */
-/* .about_content  { */
-	/* padding: 20px 0; */
-/* } */
-/* .namepost_banner p{ */
-	/* padding:0; */
-/* } */
-/* .team_images { */
-	/* margin-bottom:20px; */
-/* } */
 
 }
 @media(min-width: 768px){
@@ -211,7 +200,7 @@
 }
 .banner_items{ 
 	height:auto;
-	padding: 33px 17px 48px;
+	padding: 33px 17px 32px;
  } 
  .banner_items > i{
 	font-size:32px;
@@ -305,6 +294,18 @@
 .aboutinfo_image h4{
 	font-size:20px;
 }	
+.banner_items > i {
+    font-size: 25px;
+}
+.banner_items{ 
+	padding: 33px 17px 19px;
+ } 
+ .logo_get{
+	 margin-left:0;
+ }
+ .logo_nav .nav_list .logo_navlink{
+	 padding:0;
+ }
 }
 @media(min-width: 1200px){
 	.container{
@@ -312,4 +313,7 @@
 	width:1170px;
 	margin:0 auto;
 }
+.logo_nav .nav_list .logo_navlink{
+	padding: 5px 10px;
+ }
 }
