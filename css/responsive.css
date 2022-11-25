@@ -277,6 +277,9 @@
 .d_lg_none{
 	display:none !important;
 }
+.header_top {
+	    background-color: transparent;
+}
 .logo_get{
 	margin-right:0px;
 	padding: 7px 20px;
